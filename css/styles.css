@@ -46,6 +46,10 @@ h6 {
   display: flex;
 }
 
+img {
+  display: block;
+}
+
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -193,6 +197,21 @@ h6 {
 
 .section-our-team {
   background: #f4f4fd;
+}
+
+
+.main-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.main-list {
+  display: flex;
+  gap: 24px;
+}
+
+.main-list-one {
+  width: calc((100% - 72px) / 4);
 }
 
 .section-two-h {
