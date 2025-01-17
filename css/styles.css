@@ -2,7 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
   color: #434455;
-  box-sizing: border-box;
+
 }
 
 ul,
@@ -67,6 +67,8 @@ h6 {
   color: #4d5ae5;
   font-weight: 700;
   margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-title-span {
@@ -79,6 +81,7 @@ h6 {
   gap: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
+
 }
 
 
@@ -256,12 +259,13 @@ h6 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: inline-block;
+
   margin-bottom: 16px;
 }
 
 .footer-logo-span {
   color: #f4f4fd;
+
 }
 
 .footer-paragarf {
