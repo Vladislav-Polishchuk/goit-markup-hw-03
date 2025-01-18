@@ -8,7 +8,7 @@ ul,
 li {
   list-style-type: none;
   margin: 0;
-  padding-left: 0;
+  padding: 0;
 }
 
 a {
@@ -42,16 +42,29 @@ h6 {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
 }
 
 img {
   display: block;
 }
 
+
+
+
+
+
+
+
+
+
+
 .header {
   border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
 }
 
 .nav {
@@ -80,7 +93,7 @@ img {
 
 .header-text {
   display: flex;
-  flex-direction: row;
+  align-items: center;
   gap: 40px;
 
 }
@@ -93,7 +106,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px 0
+  padding: 24px 0;
+  display: block;
+
 }
 
 .header-text-one:hover {
@@ -138,11 +153,7 @@ img {
 
 .address {
   font-style: normal;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  margin-left: auto;
 }
 
 .address:hover {
@@ -151,6 +162,16 @@ img {
 
 .address:focus {
   color: #404bbf;
+}
+
+
+.address-a {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  display: block;
+  font-size: 16px;
+  padding: 24px 0;
 }
 
 .main-header {
@@ -185,7 +206,7 @@ img {
   border-radius: 4px;
   padding: 16px 32px;
   gap: 10px;
-  margin: 0 auto;
+  margin-left: 492px;
 }
 
 .main-button:hover {
@@ -342,8 +363,11 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: inline-block;
   margin-bottom: 16px;
+}
+
+.logo-a {
+  display: inline-block;
 }
 
 .footer-logo-span {
