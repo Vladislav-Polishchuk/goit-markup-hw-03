@@ -57,7 +57,6 @@ img {
 .nav {
   display: flex;
   flex-direction: row;
-  align-items: center;
   padding-right: 332px;
 }
 
@@ -71,8 +70,6 @@ img {
   color: #4d5ae5;
   font-weight: 700;
   margin-right: 76px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-title-span {
@@ -95,8 +92,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-text-one:hover {
@@ -158,10 +153,8 @@ img {
 
 .main-header {
   background: #2e2f42;
-  text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
-  flex-direction: column;
 }
 
 .main-text {
@@ -172,6 +165,9 @@ img {
   color: #fff;
   line-height: 1.07;
   max-width: 496px;
+  padding-bottom: 49.96px;
+  margin: 0 auto;
+
 }
 
 .main-button {
@@ -185,6 +181,9 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
+  padding: 16px 32px;
+  gap: 10px;
+  margin: 0 auto;
 }
 
 .main-button:hover {
@@ -253,6 +252,11 @@ img {
 
 .section-three-li {
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.div-class {
+  padding: 32px 0;
 }
 
 .section-three-title {
@@ -261,6 +265,8 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px
 }
 
 .section-three-p {
@@ -268,6 +274,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
 
 .section-three-ul {
