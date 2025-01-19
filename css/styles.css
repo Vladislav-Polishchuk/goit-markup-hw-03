@@ -293,8 +293,11 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-
-  margin-bottom: 8px
+  text-align: center;
+  margin-bottom: 8px;
+  margin-right: 172px;
+  white-space: nowrap;
+  justify-self: start;
 }
 
 .section-three-p {
@@ -302,7 +305,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-
+  text-align: center;
+  padding-right: 172px;
+  justify-self: start;
 }
 
 
