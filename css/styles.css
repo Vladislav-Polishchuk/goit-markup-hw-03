@@ -283,14 +283,13 @@ img {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  gap: 32px;
+  gap: 24px;
 }
 
 .section-three-li {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   background: #fff;
-  gap: 24px;
 }
 
 .div-class {
