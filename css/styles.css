@@ -180,6 +180,12 @@ img {
   padding-bottom: 188px;
 }
 
+.main-cont {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  flex-direction: column;
+}
 
 .main-text {
   font-weight: 700;
@@ -189,8 +195,9 @@ img {
   color: #fff;
   line-height: 1.07;
   max-width: 496px;
-  padding-bottom: 48.96px;
-  margin: auto;
+  margin-bottom: 48.96px;
+  justify-self: center;
+  align-self: center;
   text-align: center;
 
 }
@@ -273,8 +280,10 @@ img {
 
 .section-three-ul {
   display: flex;
-  gap: 24px;
   align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 32px;
 }
 
 .section-three-li {
@@ -284,7 +293,13 @@ img {
 }
 
 .div-class {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
   padding: 32px 0;
+
 }
 
 .section-three-title {
@@ -294,10 +309,9 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
-  margin-bottom: 8px;
-  margin-right: 172px;
-  white-space: nowrap;
-  justify-self: start;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .section-three-p {
@@ -306,8 +320,8 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
-  padding-right: 172px;
-  justify-self: start;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -338,9 +352,12 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none;
   justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-self: start;
 }
 
-.section-three-title {
+.section-four-title {
   margin-bottom: 8px;
 }
 
